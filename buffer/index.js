@@ -1,5 +1,5 @@
 console.log(typeof Buffer);
-var str = "Hello 尚硅谷";
+var str = "Hello world";
 let buf = Buffer.from(str);
 console.log(buf);
 console.log(buf.length);
