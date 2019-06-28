@@ -23,4 +23,8 @@ Code Assistatant启用Node.js库的代码提示即可；
     		module.exports.xxx = xxxx
     		module.exports = {}
     		
+5.查看端口占用进程，如8080端口：
+lsof -i :8080
 
+杀掉进程：可以看到进程的PID，如3931：
+kill 3931
