@@ -4,6 +4,8 @@
 
 参考文档：https://blog.csdn.net/canxuezhang/article/details/88176839
 
+http学习示例项目地址：https://github.com/jirengu/node-server
+
 1.node 事件驱动、非阻塞和异步I/O模型：
 https://www.jianshu.com/p/14bb2b4038d3
 
