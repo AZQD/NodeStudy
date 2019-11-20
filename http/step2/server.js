@@ -26,7 +26,7 @@ http.createServer(function (req, res) {
 
   let handleFn = routers[pathObj.pathname];
 
-  if(handleFn){ // 处理路由
+  if (handleFn) { // 处理路由
     req.query = pathObj.query;
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
 
@@ -59,7 +59,7 @@ http.createServer(function (req, res) {
   });
 }).listen(8080);
 
-function parseBody(body) {
+function parseBody (body) {
   console.log(99, body);
   var obj = {};
   body.split('&').forEach(function (str) {
